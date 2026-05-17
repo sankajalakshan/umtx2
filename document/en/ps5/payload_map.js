@@ -1787,6 +1787,33 @@ const payload_map = [
         visible: true
     },
     {
+        id: "sonicloader",
+        displayTitle: "Sonic Loader",
+        description: "Web-based PS5 management dashboard - launch games, cheats, install homebrew and PKGs, file transfer, fan control, and offline account activation. Self-contained with bundled Lapy JB Daemon (no etaHEN needed). WebUI on port 6969.",
+        author: "soniciso, voidwhisper, earthonion",
+        authors: [{"name": "soniciso", "github": "https://github.com/soniciso", "role": "Developer"}, {"name": "voidwhisper", "github": "https://github.com/voidwhisper", "role": "Developer"}, {"name": "earthonion", "github": "https://github.com/earthonion", "role": "Developer"}],
+        projectUrl: "https://git.earthonion.com/soniciso/sonicloader",
+        license: {type: "GPL-3.0", url: "https://git.earthonion.com/soniciso/sonicloader"},
+        sourceType: "direct",
+        sourceRepo: "",
+        versions: [
+            {
+                version: "1.5.6",
+                fileName: "sonic-loader.elf",
+                filePath: "payloads/sonicloader/1.5.6/sonic-loader.elf",
+                downloadUrl: "",
+                hash: "56fe7e6c591b823fb2fa221e84921bb512574118207050b3bc4bee10521dc2ec",
+                fileSize: 6526640,
+                releaseDate: "2026-05-16",
+                isDefault: true,
+                isPreRelease: false,
+                changelog: []
+            },
+        ],
+        toPort: 9021,
+        visible: true
+    },
+    {
         id: "appcache-remove",
         displayTitle: "Browser appcache remover",
         description: "Deletes for only the current user in webkit-only mode",

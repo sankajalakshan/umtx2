@@ -4,6 +4,19 @@ All notable changes to this project will be documented in this file.
 
 This is a custom fork of [idlesauce/umtx2](https://github.com/idlesauce/umtx2). Changes listed here are specific to this fork.
 
+## [Unreleased]
+
+### Added
+- **Sonic Loader** — Web-based PS5 management dashboard by soniciso. Launch games, manage cheats, install homebrew and PKGs, transfer files, fan control, and offline account activation from a browser UI on port 6969. Self-contained — bundles voidwhisper's Lapy JB Daemon, so etaHEN is no longer required for app jailbreaking. Version 1.5.6 included
+
+### Notes
+- Sonic Loader is hosted on a Gitea instance (`git.earthonion.com`) behind an Anubis anti-bot gate, so it cannot be auto-updated by the twice-daily workflow. It is configured as a `direct` payload and must be bumped manually when new releases land
+
+### Credits
+- Thanks to soniciso and the earthonion PS5 community for Sonic Loader, and to VoidWhisper for the Lapy JB Daemon
+
+---
+
 ## [2.1.1] - 2026-04-03
 
 ### Added
