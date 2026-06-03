@@ -726,6 +726,90 @@ payloads:
         isDefault: false
         releaseDate: 2026-05-16
 
+  # --- Elf Arsenal: All-in-one PS5 utility dashboard (Sonic Loader successor) ---
+  # Hosted on the same Gitea (git.earthonion.com) as Sonic Loader, behind the
+  # Anubis anti-bot gate, so the auto-update workflow cannot fetch it.
+  # Update manually: drop new elf-arsenal.elf under payloads/elf-arsenal/{version}/
+  # and add a manualVersions entry. Leave url empty (Gitea web path is gated).
+  - id: elf-arsenal
+    displayTitle: Elf Arsenal
+    description: All-in-one PS5 utility dashboard and successor to Sonic Loader - launch games, manage cheats, install homebrew and PKGs, file transfer, fan control, trophy and save tools, all from a browser WebUI.
+    authors:
+      - soniciso
+      - voidwhisper
+      - earthonion
+    projectUrl: https://git.earthonion.com/soniciso/elf-arsenal
+    sourceType: direct
+    sourceRepo: ""
+    sourcePattern: elf-arsenal*.elf
+    toPort: 9021
+    supportedFirmwares: []
+    license:
+      type: ""
+      url: "https://git.earthonion.com/soniciso/elf-arsenal"
+    manualVersions:
+      - version: "1.6.4"
+        fileName: elf-arsenal.elf
+        url: ""
+        isDefault: true
+        releaseDate: 2026-06-01
+      - version: "1.6.3"
+        fileName: elf-arsenal.elf
+        url: ""
+        isDefault: false
+        releaseDate: 2026-05-31
+      - version: "1.6.2"
+        fileName: elf-arsenal.elf
+        url: ""
+        isDefault: false
+        releaseDate: 2026-05-27
+
+  # --- UDS Trophy Unlocker: all-firmware PS5 trophy unlocker (single ELF) ---
+  # Gitea-hosted (Anubis-gated) - manual updates only.
+  - id: uds-trophy-unlocker
+    displayTitle: UDS Trophy Unlocker
+    description: All-firmware (4.03-12.70) PS5 trophy unlocker - a single ELF that auto-patches SceShellCore for the active firmware and unlocks trophies from inside running games via the Universal Data System.
+    authors:
+      - soniciso
+    projectUrl: https://git.earthonion.com/soniciso/uds-trophy-unlocker
+    sourceType: direct
+    sourceRepo: ""
+    sourcePattern: trophy_unlocker*.elf
+    toPort: 9021
+    supportedFirmwares: []
+    license:
+      type: ""
+      url: "https://git.earthonion.com/soniciso/uds-trophy-unlocker"
+    manualVersions:
+      - version: "1.0.0"
+        fileName: trophy_unlocker_allfw.elf
+        url: ""
+        isDefault: true
+        releaseDate: 2026-05-26
+
+  # --- PS5 DPI v2: etaHEN-compatible HTTP package installer ---
+  # Gitea-hosted (Anubis-gated) - manual updates only.
+  - id: ps5-dpi-v2
+    displayTitle: PS5 DPI v2
+    description: etaHEN-compatible HTTP package installer - serves a web form on port 12800 to install PKG files by URL. Works on FW 4.03 through 13.20+.
+    authors:
+      - soniciso
+    projectUrl: https://git.earthonion.com/soniciso/ps5-dpi-v2
+    sourceType: direct
+    sourceRepo: ""
+    sourcePattern: dpiv2*.elf
+    toPort: 9021
+    supportedFirmwares: []
+    license:
+      type: ""
+      url: "https://git.earthonion.com/soniciso/ps5-dpi-v2"
+    manualVersions:
+      - version: "1.0.0"
+        fileName: dpiv2.elf
+        url: ""
+        isDefault: true
+        releaseDate: 2026-05-31
+
   # ===========================================================================
   # Pattern C: custom (JavaScript Actions - No Binary Download)
   # Use this for browser-based actions that don't require a binary payload.

@@ -29,7 +29,7 @@ A web-based PS5 jailbreak host. Open it in your PS5 browser, pick your firmware,
 
 20+ payloads ready to go:
 
-etaHEN, elfldr, ftpsrv, websrv, gdbsrv, klogsrv, shsrv, ps5debug, ps5debug-dizz, byepervisor, backpork, kstuff, kstuff-toggle, libhijacker, ps5-versions, rp-get-pin, ShadowMountPlus, VoidShell, Sonic Loader, Payload Manager, and more.
+etaHEN, elfldr, ftpsrv, websrv, gdbsrv, klogsrv, shsrv, ps5debug, ps5debug-dizz, byepervisor, backpork, kstuff, kstuff-toggle, libhijacker, ps5-versions, rp-get-pin, ShadowMountPlus, VoidShell, Sonic Loader, Payload Manager, Elf Arsenal, UDS Trophy Unlocker, PS5 DPI v2, and more.
 
 ## How to Use
 
@@ -71,6 +71,9 @@ Additional credits to the PS5 homebrew community and all payload developers whos
 - **[ShadowMountPlus](https://github.com/drakmor/ShadowMountPlus)** — [drakmor](https://github.com/drakmor), [VoidWhisper](https://github.com/VoidWhisper), [BestPig](https://github.com/BestPig), [EchoStretch](https://github.com/EchoStretch), [Gezine](https://github.com/Gezine), [earthonion](https://github.com/earthonion), [LightningMods](https://github.com/LightningMods), [john-tornblom](https://github.com/john-tornblom)
 - **VoidShell** — [VoidWhisper](https://github.com/VoidWhisper) ([Ko-fi](https://ko-fi.com/voidwhisper))
 - **[Sonic Loader](https://git.earthonion.com/soniciso/sonicloader)** — soniciso, [VoidWhisper](https://github.com/VoidWhisper) (Lapy JB Daemon), [earthonion](https://git.earthonion.com/earthonion) (Web-based PS5 management dashboard)
+- **[Elf Arsenal](https://git.earthonion.com/soniciso/elf-arsenal)** — soniciso (All-in-one PS5 utility dashboard, successor to Sonic Loader)
+- **[UDS Trophy Unlocker](https://git.earthonion.com/soniciso/uds-trophy-unlocker)** — soniciso (All-firmware PS5 trophy unlocker)
+- **[PS5 DPI v2](https://git.earthonion.com/soniciso/ps5-dpi-v2)** — soniciso (etaHEN-compatible HTTP package installer)
 - **[Payload Manager](https://github.com/itsPLK/ps5-payload-manager)** — [itsPLK](https://github.com/itsPLK), [owendswang](https://github.com/owendswang) (Web-based payload import & autoload dashboard)
 - **[Byepervisor](https://github.com/EchoStretch/Byepervisor)** — [SpecterDev](https://github.com/SpecterDev), [ChendoChap](https://github.com/ChendoChap), [flatz](https://github.com/flatz), [fail0verflow](https://github.com/fail0verflow), [Znullptr](https://github.com/Znullptr), [kiwidog](https://github.com/kiwidog), [sleirsgoevy](https://github.com/sleirsgoevy), [EchoStretch](https://github.com/EchoStretch), [LightningMods](https://github.com/LightningMods), [BestPig](https://github.com/BestPig), [zecoxao](https://github.com/zecoxao), [TheOfficialFloW](https://github.com/TheOfficialFloW)
 - **[BackPork](https://github.com/BestPig/BackPork)** — [BestPig](https://github.com/BestPig) (System library sideloading)
