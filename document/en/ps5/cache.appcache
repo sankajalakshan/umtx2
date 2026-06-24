@@ -75,6 +75,7 @@ payloads/rp-get-pin/metadata.json #6c04955dc0993c9008119462df46f732e295b6f801dba
 payloads/rp-get-pin/0.1.1/rp-get-pin.elf #1d611c1856dd2f4b4b6cb42ead1128a7f08a26585788f92de79fa4f67d721472
 payloads/backpork/metadata.json #d7bb8b7374307230fc82d22e6978cb62675c38575c474b2df13cdb47800ef54c
 payloads/backpork/0.1/ps5-backpork.elf #f76dd1885ef6aebec55e12a71b32a6bbf0e1cafb9146960a51b231fd52b914fe
+payloads/kcc/metadata.json #416529f0909dd68f61f14addf8d8895f26ab8416b8207388a4a64f526d50cdb3
 payloads/kcc/1.0/kcc.elf #2b731fc60b3d7996667b372bb8e31df7125d209ecacbb6838312a51b24b65c29
 payloads/payload-manager/metadata.json #45c13934e1f05f0765c1af3726e2302c67e393639fa24ebd86eef7a97b3f0259
 payloads/payload-manager/0.3.1/pldmgr_v0.3.1.elf #518740adbacccb9094fadb07dd424c53ee290f38306449ccc9d6957fdf813c0b
