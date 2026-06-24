@@ -1190,10 +1190,17 @@ async function main(userlandRW, wkOnly = false) {
 
     console.log("AUTOLOAD CODE REACHED");
     // Auto-launch Payload Manager
+    const pm = payload_map.find(p => p.id === "payload-manager");
+    
+    const version = pm.versions.find(v => v.isDefault) || pm.versions[0];
+    
     queue.push({
-        payload_info: payload_map.find(p => p.id === "payload-manager"),
+        payload_info: {
+            ...pm,
+            ...version
+        },
         toast: showToast("Payload Manager: Auto-launching...", -1)
-    });    
+    });   
     
     // await log("Done, switching to payloads screen...", LogLevel.INFO);
     await new Promise(resolve => setTimeout(resolve, 300));
