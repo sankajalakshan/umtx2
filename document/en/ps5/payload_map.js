@@ -1433,7 +1433,7 @@ const payload_map = [
                 fileName: "kcc.elf",
                 filePath: "payloads/kcc/1.0/kcc.elf",
                 downloadUrl: "https://github.com/download/1.0/kcc.elf",
-                hash: "776dd1885ef6aebec55e12a71b32a66bf0e1cafb9146960a51b231fd52b914fe",
+                hash: "2b731fc60b3d7996667b372bb8e31df7125d209ecacbb6838312a51b24b65c29",
                 fileSize: 116184,
                 releaseDate: "2026-04-30",
                 isDefault: true,
