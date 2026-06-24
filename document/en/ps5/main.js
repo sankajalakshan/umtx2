@@ -1188,6 +1188,7 @@ async function main(userlandRW, wkOnly = false) {
         queue.push({ payload_info, toast });
     });
 
+    console.log("AUTOLOAD CODE REACHED");
     // Auto-launch Payload Manager
     queue.push({
         payload_info: payload_map.find(p => p.id === "payload-manager"),
