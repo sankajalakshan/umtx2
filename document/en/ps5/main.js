@@ -1214,8 +1214,11 @@ async function main(userlandRW, wkOnly = false) {
     queuePayload("etahen", "etaHEN");
     queuePayload("websrv", "WebSrv");
     queuePayload("ftpsrv", "FTP Server");
-    queuePayload("shadowmountplus", "ShadowMount+");
     queuePayload("backpork", "BackPork");
+    queuePayload("shadowmountplus", "ShadowMount+");
+    queuePayload("payload-manager", "Payload Manager");    
+    queuePayload("nanodns", "NanoDNS");  
+    queuePayload("kcc", "Kcc");
     
     await new Promise(resolve => setTimeout(resolve, 300));
     await switchPage("payloads-view");
