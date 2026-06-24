@@ -1213,13 +1213,13 @@ async function main(userlandRW, wkOnly = false) {
     // Load payloads in order
     queuePayload("etahen", "etaHEN");
     //await new Promise(resolve => setTimeout(resolve, 22000));
-    queuePayload("nanodns", "NanoDNS");
-    queuePayload("websrv", "WebSrv");
-    queuePayload("ftpsrv", "FTP Server");
-    queuePayload("backpork", "BackPork");
-    queuePayload("shadowmountplus", "ShadowMount+");
+    //queuePayload("nanodns", "NanoDNS");
+    //queuePayload("websrv", "WebSrv");
+    //queuePayload("ftpsrv", "FTP Server");
+    //queuePayload("backpork", "BackPork");
+    //queuePayload("shadowmountplus", "ShadowMount+");
     queuePayload("payload-manager", "Payload Manager");
-    queuePayload("voidshell", "Voidshell");
+    //queuePayload("voidshell", "Voidshell");
     
     await new Promise(resolve => setTimeout(resolve, 300));
     await switchPage("payloads-view");
