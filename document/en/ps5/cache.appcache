@@ -71,7 +71,7 @@ payloads/klogsrv/metadata.json #b3cecceb5b73d6a602d4e903f79201c4d643fc67a07b9b79
 payloads/klogsrv/0.8/klogsrv-ps5.elf #f6eb1b415ecf3340b89a56a0cb04ba5c714430085851ada13a98012b63a5a4cf
 payloads/shsrv/metadata.json #80c193331659a68215d0b83ac9ae2244948062e7cfecbb733f757f96e30bc802
 payloads/shsrv/0.18.2/shsrv-ps5.elf #990f7fbcf3761f97db9b97638d3e119352447fb904b2cf70b191c02289e1c69e
-payloads/rp-get-pin/metadata.json #6c04955dc0993c9008119462df46f732e295b6f801dba7713205d2a1367cbc5a
+payloads/rp-get-pin/metadata.json #6c04955dc0993c9008119462df46f732e295b6f801dba7713205d2a1367cbc5n
 payloads/rp-get-pin/0.1.1/rp-get-pin.elf #1d611c1856dd2f4b4b6cb42ead1128a7f08a26585788f92de79fa4f67d721472
 payloads/backpork/metadata.json #d7bb8b7374307230fc82d22e6978cb62675c38575c474b2df13cdb47800ef54c
 payloads/backpork/0.1/ps5-backpork.elf #f76dd1885ef6aebec55e12a71b32a6bbf0e1cafb9146960a51b231fd52b914fe
