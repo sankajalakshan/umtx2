@@ -72,7 +72,7 @@ const payload_map = [
                 hash: "4845cac45095361b8983b14d6690622183b0dcfbf6d7fda16e161aa91ff0531e",
                 fileSize: 4678728,
                 releaseDate: "2025-12-25",
-                isDefault: true,
+                isDefault: false,
                 isPreRelease: false,
                 changelog: ["etaHEN 2.5B Change log", "Added the option to choose cheats repo source when updating via internet (etaHEN or GoldHEN Repos)", "Added Unpause kstuff on game close option", "Added fewer notifications with new notification type with icon", "Added Manual Fan threshold setting to the etaHEN toolbox settings", "Added (Beta) Game/App dumper to the Game options menu featuring PS5 App Dumper 1.08 by @EchoStretch", "WebMAN Games rewrite with fixed M.2 Support including many different WebMAN Games fixes", "Added custom \u2605 Delete option to delete game/app patches and more", "*Experimental* PS4 FPS Section"]
             },
@@ -276,7 +276,7 @@ const payload_map = [
                 hash: "9669c993a1036ac28cb7a84f7fc6f12aeafbf9be1104169d72547a851e09b2d4",
                 fileSize: 1145008,
                 releaseDate: "2023-10-28",
-                isDefault: false,
+                isDefault: true,
                 isPreRelease: true,
                 changelog: ["\u26a0 This is a pre-release version. Use with caution.", "**Important**: etaHEN is currently separated into a payload with and without cheats, this is because the cheats are currently interfering with homebrew apps requesting to be jailbroken so until we fix that issue if you want to use HB apps like the store use etaHEN without cheats"]
             },
