@@ -1,0 +1,30 @@
+{
+  "id": "kcc",
+  "displayTitle": "Kcc",
+  "description": "Kcc",
+  "authors": [
+    "Kcc"
+  ],
+  "projectUrl": "https://github.com/kcc/kcc",
+  "sourceRepo": "kcc/kcc",
+  "supportedFirmwares": [],
+  "toPort": 9021,
+  "versions": [
+    {
+      "version": "1.0",
+      "fileName": "kcc.elf",
+      "filePath": "payloads/kcc/1.0/kcc.elf",
+      "downloadUrl": "https://github.com/download/1.0/kcc.elf",
+      "hash": "2b731fc60b3d7996667b372bb8e31df7125d209ecacbb6838312a51b24b65c29",
+      "fileSize": 6015672,
+      "releaseDate": "2026-04-30",
+      "isDefault": true,
+      "isPreRelease": false,
+      "changelog": ["kcc"]
+    }
+  ],
+  "license": {
+    "type": "GPL-3.0",
+    "url": "https://github.com/kcc/blob/main/LICENSE"
+  }
+}
