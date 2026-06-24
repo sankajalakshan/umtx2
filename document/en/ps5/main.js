@@ -1212,14 +1212,14 @@ async function main(userlandRW, wkOnly = false) {
     
     // Load payloads in order
     queuePayload("etahen", "etaHEN");
-    await new Promise(resolve => setTimeout(resolve, 22000));
+    //await new Promise(resolve => setTimeout(resolve, 22000));
     queuePayload("nanodns", "NanoDNS");
     queuePayload("websrv", "WebSrv");
     queuePayload("ftpsrv", "FTP Server");
     queuePayload("backpork", "BackPork");
     queuePayload("shadowmountplus", "ShadowMount+");
     queuePayload("payload-manager", "Payload Manager");
-    queuePayload("kcc", "Kcc");
+    queuePayload("voidshell", "Voidshell");
     
     await new Promise(resolve => setTimeout(resolve, 300));
     await switchPage("payloads-view");
@@ -1272,6 +1272,18 @@ async function main(userlandRW, wkOnly = false) {
             }
 
             setTimeout(removeToast, TOAST_SUCCESS_TIMEOUT, toast);
+
+            if (payload_info.id === "etahen") {
+                let delayToast = showToast(
+                    "etaHEN completed. Waiting 20 seconds before next payload...",
+                    -1
+                );
+            
+                await new Promise(resolve => setTimeout(resolve, 20000));
+            
+                removeToast(delayToast);
+            }        
+        
         }
 
         if (queue.length > 0) {
