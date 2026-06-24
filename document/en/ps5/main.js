@@ -1188,10 +1188,15 @@ async function main(userlandRW, wkOnly = false) {
         queue.push({ payload_info, toast });
     });
 
+    // Auto-launch Payload Manager
+    queue.push({
+        payload_info: payload_map.find(p => p.id === "payload-manager"),
+        toast: showToast("Payload Manager: Auto-launching...", -1)
+    });    
+    
     // await log("Done, switching to payloads screen...", LogLevel.INFO);
     await new Promise(resolve => setTimeout(resolve, 300));
     await switchPage("payloads-view");
-
 
     while (true) {
 
